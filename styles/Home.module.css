@@ -1,3 +1,16 @@
+
+@font-face {
+  font-family: Zrnic;
+  src: url('../public/zrnic.ttf');
+}
+
+.countdown{
+  font-family: Zrnic;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.4em
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -5,7 +18,60 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+
+.navbar{
+  padding: 1em
+}
+
+.navul{
+
+  list-style: none;
+  display: flex;
+  float: right;
+  width: 50%;
+  margin-top: 0em
+}
+
+.navlogo{
+  width: 30%
+}
+
+.nav_item{
+  width: 100%
+}
+
+.mint{
+  display: block;
+  width: 70%;
+}
+
+.mint_gif{
+
+  margin-bottom: 2em
+}
+
+.count_to_launch{
+  font-family: Zrnic;
+  font-size: 28px;
+  font-weight:800;
+  letter-spacing: 4px
+}
+
+.con_button{
+  font-family: Zrnic;
+  background: transparent;
+  font-size: 2em;
+  width: 100%;
+  letter-spacing: 3px;
+  color: white;
+  border:1px solid white;
+}
+
+.con_button img{
+  width: 0.8em;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .main {
@@ -15,6 +81,69 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 0%
+}
+.about {
+  text-align: center;
+  margin-top: 0%;
+  color: white;
+  width: 80%
+}
+
+.about p{
+  display: block;
+  width: 100%;
+  margin-top: -15px;
+  font-family: Zrnic;
+  letter-spacing: 1px
+}
+.rarities {
+  text-align: start;
+  margin-top: 0%;
+  color: white;
+  width: 80%;
+  margin-bottom: 5em
+}
+
+.rarities p{
+  display: block;
+  width: 100%;
+  margin-top: -15px;
+  font-family: Zrnic;
+  letter-spacing: 1px
+}
+
+.rarities_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4em
+}
+
+.rarities_item{
+  width:33%;
+}
+
+.rarities_item p{
+  text-align: center
+}
+
+.rarities_item img{
+  width: 100%
+}
+
+
+.hero5 img{
+  background: url('/Trazado 51.svg');
+  background-size: 100% 100%;
+  padding: 1em;
+  width: 6em;
+  margin-left: 1em
+
+}
+
+.hero5{
+  margin-top: 3em;
+  margin-bottom: 5em
 }
 
 .footer {
@@ -117,5 +246,32 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .navbar img{
+    width: 100%;
+    margin-bottom: 2em
+  }
+
+  .navbar ul{
+    width: 100%
+  }
+
+  .rarities_list{
+    display: block
+  }
+
+  .rarities_item{
+    width: 100%
+  }
+
+
+  .rarities_item p{
+    margin-top: 2em
+  }
+
+  .count_to_launch{
+    text-align: center;
+    width: 90%
   }
 }
